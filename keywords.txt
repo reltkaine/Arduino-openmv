@@ -1,0 +1,166 @@
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+point_t                     KEYWORD1
+line_t                      KEYWORD1
+rectangle_t                 KEYWORD1
+color_thresholds_list_lnk_data_t KEYWORD1
+image_bpp_t                 KEYWORD1
+simple_color_t              KEYWORD1
+i_image_t                   KEYWORD1
+mw_image_t                  KEYWORD1
+vec_t                       KEYWORD1
+cluster_t                   KEYWORD1
+kp_t                        KEYWORD1
+wsize_t                     KEYWORD1
+cascade_t                   KEYWORD1
+bmp_read_settings_t         KEYWORD1
+ppm_read_settings_t         KEYWORD1
+img_read_settings_t         KEYWORD1
+save_image_format_t         KEYWORD1
+descriptor_t                KEYWORD1
+edge_detector_t             KEYWORD1
+template_match_t            KEYWORD1
+jpeg_subsample_t             KEYWORD1
+corner_detector_t           KEYWORD1
+histogram_t                 KEYWORD1
+percentile_t                KEYWORD1
+threshold_t                 KEYWORD1
+statistics_t                KEYWORD1
+
+find_blobs_list_lnk_data_t  KEYWORD1
+find_lines_list_lnk_data_t  KEYWORD1
+find_circles_list_lnk_data_t KEYWORD1
+find_rects_list_lnk_data_t  KEYWORD1
+find_qrcodes_list_lnk_data_t KEYWORD1
+find_apriltags_list_lnk_data_t KEYWORD1
+find_datamatrices_list_lnk_data_t KEYWORD1
+find_barcodes_list_lnk_data_t KEYWORD1
+
+apriltag_families_t         KEYWORD1
+barcodes_t                  KEYWORD1
+
+#######################################
+# Functions (KEYWORD2)
+#######################################
+
+point_init                  KEYWORD2
+point_copy                  KEYWORD2
+point_equal                 KEYWORD2
+point_distance              KEYWORD2
+
+rectangle_init              KEYWORD2
+rectangle_copy              KEYWORD2
+rectangle_equal             KEYWORD2
+rectangle_intersects        KEYWORD2
+rectangle_expand            KEYWORD2
+
+image_init                  KEYWORD2
+image_copy                  KEYWORD2
+image_size                  KEYWORD2
+
+imlib_rgb_to_lab             KEYWORD2
+imlib_lab_to_rgb             KEYWORD2
+imlib_rgb_to_grayscale       KEYWORD2
+imlib_grayscale_to_rgb       KEYWORD2
+
+ppm_read                    KEYWORD2
+ppm_write_subimg             KEYWORD2
+bmp_read                    KEYWORD2
+bmp_read_pixels              KEYWORD2
+bmp_write_subimg             KEYWORD2
+jpeg_read                   KEYWORD2
+jpeg_write                  KEYWORD2
+
+gif_open                    KEYWORD2
+gif_add_frame               KEYWORD2
+gif_close                   KEYWORD2
+
+mjpeg_open                  KEYWORD2
+mjpeg_add_frame             KEYWORD2
+mjpeg_close                 KEYWORD2
+
+imlib_sepconv3               KEYWORD2
+imlib_image_mean             KEYWORD2
+imlib_image_std              KEYWORD2
+
+imlib_template_match_ds      KEYWORD2
+imlib_template_match_ex      KEYWORD2
+
+cluster_kmeans               KEYWORD2
+
+imlib_integral_image         KEYWORD2
+imlib_integral_image_sq      KEYWORD2
+imlib_integral_image_scaled  KEYWORD2
+
+fast_detect                  KEYWORD2
+agast_detect                 KEYWORD2
+
+orb_find_keypoints           KEYWORD2
+orb_match_keypoints          KEYWORD2
+
+imlib_lbp_desc               KEYWORD2
+imlib_lbp_desc_distance      KEYWORD2
+
+imlib_find_iris              KEYWORD2
+
+imlib_edge_simple            KEYWORD2
+imlib_edge_canny             KEYWORD2
+
+imlib_get_histogram          KEYWORD2
+imlib_get_statistics         KEYWORD2
+
+imlib_find_blobs             KEYWORD2
+imlib_find_lines             KEYWORD2
+imlib_find_circles           KEYWORD2
+imlib_find_rects             KEYWORD2
+imlib_find_qrcodes           KEYWORD2
+imlib_find_apriltags         KEYWORD2
+imlib_find_datamatrices      KEYWORD2
+imlib_find_barcodes          KEYWORD2
+
+imlib_draw_line              KEYWORD2
+imlib_draw_rectangle         KEYWORD2
+imlib_draw_circle            KEYWORD2
+imlib_draw_ellipse           KEYWORD2
+imlib_draw_string            KEYWORD2
+imlib_draw_image             KEYWORD2
+
+imlib_binary                 KEYWORD2
+imlib_erode                  KEYWORD2
+imlib_dilate                 KEYWORD2
+
+imlib_gamma_corr             KEYWORD2
+imlib_add                    KEYWORD2
+imlib_sub                    KEYWORD2
+imlib_mul                    KEYWORD2
+imlib_div                    KEYWORD2
+imlib_blend                  KEYWORD2
+
+imlib_lens_corr              KEYWORD2
+imlib_rotation_corr          KEYWORD2
+
+#######################################
+# Constants & Macros (KEYWORD3)
+#######################################
+
+IMAGE_BPP_BINARY             KEYWORD3
+IMAGE_BPP_GRAYSCALE          KEYWORD3
+IMAGE_BPP_RGB565             KEYWORD3
+IMAGE_BPP_BAYER              KEYWORD3
+IMAGE_BPP_JPEG               KEYWORD3
+
+FORMAT_BMP                   KEYWORD3
+FORMAT_PNM                   KEYWORD3
+FORMAT_JPG                   KEYWORD3
+FORMAT_RAW                   KEYWORD3
+
+EDGE_CANNY                   KEYWORD3
+EDGE_SIMPLE                  KEYWORD3
+
+DESC_LBP                     KEYWORD3
+DESC_ORB                     KEYWORD3
+
+CORNER_FAST                  KEYWORD3
+CORNER_AGAST                 KEYWORD3
