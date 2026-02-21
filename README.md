@@ -1,6 +1,10 @@
 # Arduino-openmv
 partial and unofficial port of openmv for arduino esp32
 
+library needed (fixed to work with esp32) : https://github.com/reltkaine/BmpImage_ArduinoLib
+
+library zip file include:::
+
 work:
 find blob - 
 find line - 
