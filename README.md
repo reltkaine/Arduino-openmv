@@ -1,6 +1,20 @@
 # Arduino-openmv
 partial and unofficial port of openmv for arduino esp32
 
+work:
+find blob
+find line
+find rectangle
+find circle
+find qrcode
+find datamatrix
+find ord/template
+
+not work
+find apriltag
+find barcode
+
+
 arduino esp32cam lcd test
 https://youtube.com/shorts/qeAkJ8yLtNM
 
